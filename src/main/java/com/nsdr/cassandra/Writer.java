@@ -35,6 +35,8 @@ public class Writer {
         if (!inFile.exists() || !inFile.canRead()) {
             log.severe(String.format("File is not existing or not readable: %s", fileName));
             System.exit(1);
+        } else {
+          log.info("indexing " + fileName);
         }
 
         ObjectMapper mapper = new ObjectMapper(new JsonFactory());
