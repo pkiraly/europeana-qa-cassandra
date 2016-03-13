@@ -1,6 +1,12 @@
 # Cassandra part of Metadata Quality Assurance Framework
 
-To create database in Cassandra:
+## To create database in Cassandra
+
+Open Cassandra's command line interface with
+
+    bin/cqlsh
+
+and enter the following commands:
 
     CREATE KEYSPACE europeana WITH replication = {'class': 'SimpleStrategy', 'replication_factor' : 1};
     USE europeana;
