@@ -46,6 +46,7 @@ public class Writer {
 
         if (args.length >= 2 && "--truncate".equals(args[1])) {
           // clear database
+          log.info("Clear table 'edm'");
           session.execute("TRUNCATE edm");
         }
 
