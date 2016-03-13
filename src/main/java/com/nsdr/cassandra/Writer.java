@@ -44,8 +44,10 @@ public class Writer {
         cluster = Cluster.builder().addContactPoint("127.0.0.1").build();
         session = cluster.connect("europeana");
 
-        // clear database
-        session.execute("TRUNCATE edm");
+        if (args.length >= 2 && args[1] == "--truncate") {
+          // clear database
+          session.execute("TRUNCATE edm");
+        }
 
         try (BufferedReader br = new BufferedReader(new FileReader(inFile))) {
             String line;
