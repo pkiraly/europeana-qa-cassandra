@@ -35,3 +35,12 @@ returns
 Quit from the console:
 
     quit
+
+## Compile
+
+    mvn clean install
+    
+## Run
+
+    java -cp target/europeana-qa-cassandra-1.0-SNAPSHOT-jar-with-dependencies.jar \
+      com.nsdr.cassandra.Writer path/to/europeana.json
