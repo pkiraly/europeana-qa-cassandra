@@ -21,4 +21,17 @@ and enter the following commands:
 To check wether everything has been created:
 
     DESCRIBE keyspaces;
+
+returns
+
+    europeana  system_traces  system_auth  system  system_distributed
+
     DESCRIBE tables;
+
+returns
+
+    edm
+
+Quit from the console:
+
+    quit
