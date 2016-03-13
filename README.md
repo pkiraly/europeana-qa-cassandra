@@ -4,7 +4,11 @@
 
 Open Cassandra's command line interface with
 
-    bin/cqlsh
+    cqlsh
+
+if Cassandra runs in your system as a service, otherwise 
+
+    /path/to/cassandra/bin/cqlsh
 
 and enter the following commands:
 
