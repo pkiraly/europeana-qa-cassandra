@@ -44,7 +44,7 @@ public class Writer {
         cluster = Cluster.builder().addContactPoint("127.0.0.1").build();
         session = cluster.connect("europeana");
 
-        if (args.length >= 2 && args[1] == "--truncate") {
+        if (args.length >= 2 && "--truncate".equals(args[1])) {
           // clear database
           session.execute("TRUNCATE edm");
         }
