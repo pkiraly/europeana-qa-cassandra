@@ -1,5 +1,7 @@
 # Cassandra part of Metadata Quality Assurance Framework
 
+[Apache Cassandra](http://cassandra.apache.org/) is a NoSQL database fits for big data, and works nicely with Hadoop and Spark.
+
 ## To create database in Cassandra
 
 Open Cassandra's command line interface with
