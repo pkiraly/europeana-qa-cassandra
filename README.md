@@ -1,6 +1,6 @@
 # Cassandra part of Metadata Quality Assurance Framework
 
-[Apache Cassandra](http://cassandra.apache.org/) is a NoSQL database fits for big data, and works nicely with Hadoop and Spark.
+[Apache Cassandra](http://cassandra.apache.org/) is a NoSQL database fits for big data, and works nicely with Hadoop and Spark. In this project we tested the functionalities with version 2.2.5 of the standard Apache version. For installation in Ubuntu I recommend [this installation guide](https://www.digitalocean.com/community/tutorials/how-to-install-cassandra-and-run-a-single-node-cluster-on-ubuntu-14-04).
 
 ## To create database in Cassandra
 
