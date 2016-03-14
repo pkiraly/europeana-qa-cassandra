@@ -44,3 +44,8 @@ Quit from the console:
 
     java -cp target/europeana-qa-cassandra-1.0-SNAPSHOT-jar-with-dependencies.jar \
       com.nsdr.cassandra.Writer path/to/europeana.json
+
+with `--truncate` option the programme first empty the edm table:
+
+    java -cp target/europeana-qa-cassandra-1.0-SNAPSHOT-jar-with-dependencies.jar \
+      com.nsdr.cassandra.Writer path/to/europeana.json --truncate
